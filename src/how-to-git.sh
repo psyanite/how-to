@@ -1,0 +1,37 @@
+# Create new branch
+git br meow
+
+# Push branch
+git push -u origin meow
+
+# Merge feature branch to master
+# Ensure feature is ontop of master
+git co master
+git merge feature
+git push -f master
+
+# Rebase feature from updated master
+# Find the last shared commit
+git co feature
+git rb --onto origin master d308502
+
+
+
+# Create a new tag
+git tag 1.0.0
+
+# Create new annotated tag
+git tag -a 1.0.0 -m "meow"
+
+# Create new annotated tag with multi-line comment
+git tag -a 1.0.0 -m 'meow
+meow'
+
+# Push tag
+git push origin 1.0.0
+
+# Delete local tag
+git tag -d 1.0.0
+
+# Delete remote tag
+git push --delete origin 1.0.0
