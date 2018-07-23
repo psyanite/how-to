@@ -21,10 +21,10 @@ git rb --onto origin master d308502
 git tag 1.0.0
 
 # Create new annotated tag
-git tag -a 1.0.0 -m "meow"
+git tag 1.0.0 -m "meow"
 
 # Create new annotated tag with multi-line comment
-git tag -a 1.0.0 -m 'meow
+git tag 1.0.0 -m 'meow
 meow'
 
 # Push tag
