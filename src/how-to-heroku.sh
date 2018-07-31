@@ -1,6 +1,9 @@
 # Create heroku
 heroku create
 
+# Set app
+heroku git:remote -a <app>
+
 # Deploys master into heroku
 git push heroku master
 
@@ -21,7 +24,7 @@ heroku config
 
 # Set a config
 heroku config:set TIMES=2
-Configs can also be set in .env file
+# Configs can also be set in .env file
 
 # Start a console
 heroku run bash
