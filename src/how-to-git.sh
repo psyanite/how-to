@@ -15,6 +15,13 @@ git push -f master
 git co feature
 git rb --onto origin master d308502
 
+# Delete local branch
+git branch -d meow
+
+# Delete remote branch
+git push --delete master meow
+
+
 
 
 # Create a new tag
