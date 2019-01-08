@@ -44,6 +44,9 @@ git tag -d 1.0.0
 git push --delete origin 1.0.0
 
 
+# Fetch remotes
+git fetch --all -p
+
 # Ammend commits to new author
 git rebase -i XXXXXXX -x "git commit --amend --author 'Nyatella Toast <psyanite@gmail.com>' -CHEAD"
 git rebase -i XXXXXXX -x "git commit --amend --author 'Yan Tsui <yan.tsui@corelogic.com.au>' -CHEAD"
