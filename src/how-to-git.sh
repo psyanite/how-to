@@ -19,7 +19,7 @@ git rb --onto origin master d308502
 git branch -d meow
 
 # Delete remote branch
-git push --delete master meow
+git push master :meow
 
 
 
@@ -41,7 +41,7 @@ git push origin 1.0.0
 git tag -d 1.0.0
 
 # Delete remote tag
-git push --delete origin 1.0.0
+git push origin :1.0.0
 
 
 # Fetch remotes
