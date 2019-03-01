@@ -50,3 +50,4 @@ git fetch --all -p
 # Ammend commits to new author
 git rebase -i XXXXXXX -x "git commit --amend --author 'Nyatella Toast <psyanite@gmail.com>' -CHEAD"
 git rebase -i XXXXXXX -x "git commit --amend --author 'Yan Tsui <yan.tsui@corelogic.com.au>' -CHEAD"
+git rebase -i XXXXXXX -x "git commit --amend --author 'psyanite <yan@boozebud.com>' -CHEAD"
