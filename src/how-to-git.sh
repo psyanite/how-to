@@ -1,3 +1,6 @@
+# Fetch
+git fetch -p --all
+
 # Create new branch
 git br meow
 
