@@ -1,6 +1,8 @@
 # How to sign and deploy your Flutter app
 
 ### Introduction
+For proper documentation please see here: https://flutter.dev/docs/deployment/android
+
 This article will only cover deploying your app to the Google Play Store. This article is up-to-date as of 17th of November 2019, please see (the official Flutter docs) [ https://flutter.dev/docs/deployment/android#signing-the-app] for the proper instructions.
 
 Keep in mind that the Google Play Store requirements evolve over time, please Google if you encounter any errors. Good luck 👍. I generally find StackOverflow and Github to provide the best answers.
