@@ -30,7 +30,7 @@ storeFile=C:\\Users\\USER_NAME\\Desktop\\nutella.jks
 1. Set `minSdkVersion` to `28`
 1. Set `targetSdkVersion` to `28`
 1. Open `{project-root}/android/app/build.gradle`
-1. Under `defaultConfig` add this fragment of code (use `androidx.fragment:fragment:1.0.0` instead of `com.android.support:support-fragment:28.0.0` when using AndroidX):
+1. Under `defaultConfig`, replace the `buildTypes` block with this fragment of code (use `androidx.fragment:fragment:1.0.0` instead of `com.android.support:support-fragment:28.0.0` when using AndroidX):
 ```
     signingConfigs {
         release {
