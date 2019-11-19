@@ -54,7 +54,7 @@ storeFile=C:\\Users\\USER_NAME\\Desktop\\nutella.jks
 
 
 ## 4. Update Pubspec.yaml
-Open `pubspec.yaml` and update the version, skip this step if this is your first deployment. How you manage your version numbering is up to you but I would suggest using semantic versioning （and always only increment numbers). Please see https://flutter.dev/docs/deployment/android#updating-the-apps-version-number or https://stackoverflow.com/questions/54357468/how-to-set-build-and-version-number-of-flutter-app for more information.
+Open `pubspec.yaml` and update the version, the first part before the `+` sign is the version name, I recommend using semantic versioning. And increment the number after the `+` sign, it is the version code and if it is not updated Google/Apple could reject your APK.Please see https://flutter.dev/docs/deployment/android#updating-the-apps-version-number or https://stackoverflow.com/questions/54357468/how-to-set-build-and-version-number-of-flutter-app for more information.
 
 
 ## 5. Build and upload APK to Google Play
