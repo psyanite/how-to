@@ -16,14 +16,14 @@ Run this on Windows (replace USER_NAME with your username):
 `keytool -genkey -v -keystore c:/Users/USER_NAME/nutella.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias nutella`
 
 
-
-
-
-
-## Update build.
-Use `androidx.fragment:fragment:1.0.0` instead of `com.android.support:support-fragment:28.0.0` when using AndroidX
+## 2. Update build.gradle
+1. Set `compileSdkVersion` to `28`
+1. Set `minSdkVersion` to `28`
+1. Set `targetSdkVersion` to `28`
+1. Open `{project-root}/android/app/build.gradle`
+1. Under `defaultConfig` add this fragment of code (use `androidx.fragment:fragment:1.0.0` instead of `com.android.support:support-fragment:28.0.0` when using AndroidX):
 ```
-signingConfigs {
+    signingConfigs {
         release {
             keyAlias keystoreProperties['keyAlias']
             keyPassword keystoreProperties['keyPassword']
@@ -32,7 +32,7 @@ signingConfigs {
         }
     }
     
-buildTypes {
+    buildTypes {
         release {
             signingConfig signingConfigs.release
             
