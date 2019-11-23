@@ -56,7 +56,7 @@ Open `pubspec.yaml` and update the version, the first part before the `+` sign i
 
 
 ## 5. Build and upload APK to Google Play
-1. Run this in command line in your project root `flutter clean && flutter build appbundle --release`
+1. Run this in command line in your project root `flutter clean && flutter build appbundle --release`, this could take up to 10 minutes, don't freak out.
 1. Login to Google Play Console
 1. Click on 'Release Management' on the left hand side, then 'App releases'
 1. Then create a new release, and fill in the details
