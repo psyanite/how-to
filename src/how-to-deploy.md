@@ -46,10 +46,6 @@ storeFile=C:\\Users\\USER_NAME\\Desktop\\nutella.jks
     buildTypes {
         release {
             signingConfig signingConfigs.release
-            
-            dependencies {
-                implementation 'com.android.support:support-fragment:28.0.0'
-            }
         }
     }
 ```
