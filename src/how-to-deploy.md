@@ -53,11 +53,13 @@ storeFile=C:\\Users\\USER_NAME\\Desktop\\nutella.jks
 ## 4. Update Pubspec.yaml
 Open `pubspec.yaml` and update the version, the first part before the `+` sign is the version name, I recommend using semantic versioning. And increment the number after the `+` sign, it is the version code and if it is not updated Google/Apple could reject your APK. Please see https://flutter.dev/docs/deployment/android#updating-the-apps-version-number or https://stackoverflow.com/questions/54357468/how-to-set-build-and-version-number-of-flutter-app for more information.
 
+Typically I like to update my version name semantically, either incrementing the major or minor number like 1.1.0 -> 1.2.0, if it has breaking changes 1.1.0 -> 2.0.0 etc. And I always increment the version number like +1 to +2.
+
 
 ## 5. Build and upload APK to Google Play
 1. Run this in command line in your project root `flutter clean && flutter build appbundle --release`, this could take up to 10 minutes, don't freak out.
 1. Login to Google Play Console
 1. Click on 'Release Management' on the left hand side, then 'App releases'
-1. Then create a new release, and fill in the details
+1. Then create a new release, and fill in the details, I like to use the version name as the release name.
 1. Upload your appbundle files in this directory: `{project-root}/build/app/output/bundle/release/app-release.aab`
 
