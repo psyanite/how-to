@@ -1,4 +1,4 @@
-# How to sign and deploy your Flutter app
+# How to sign and deploy your Flutter app For the Very First Time
 
 ### Introduction
 
@@ -65,3 +65,10 @@ Typically I like to update my version name semantically, either incrementing the
 1. Practise your Google skills to fix any issues
 1. Party 🎉
 
+
+## Subsequent deployments
+1. Update version name and version number in `pubspec.yaml` 
+1. Run `flutter clean && flutter build appbundle --release`
+1. Go to Google Play Console -> Release Management -> Create new release
+1. Upload new `{project-root}/build/app/output/bundle/release/app-release.aab` files
+1. Checkin changes
