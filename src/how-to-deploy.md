@@ -59,5 +59,5 @@ Open `pubspec.yaml` and update the version, the first part before the `+` sign i
 1. Login to Google Play Console
 1. Click on 'Release Management' on the left hand side, then 'App releases'
 1. Then create a new release, and fill in the details
-1. Upload your appbundle files in this directory: `{project-root}/build/app/output/release/app-release.aab`
+1. Upload your appbundle files in this directory: `{project-root}/build/app/output/bundle/release/app-release.aab`
 
