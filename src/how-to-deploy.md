@@ -1,4 +1,4 @@
-# How to sign and deploy your Flutter app For the Very First Time
+# How to sign and deploy your Flutter app
 
 ### Introduction
 
