@@ -62,4 +62,6 @@ Typically I like to update my version name semantically, either incrementing the
 1. Click on 'Release Management' on the left hand side, then 'App releases'
 1. Then create a new release, and fill in the details, I like to use the version name as the release name.
 1. Upload your appbundle files in this directory: `{project-root}/build/app/output/bundle/release/app-release.aab`
+1. Practise your Google skills to fix any issues
+1. Party 🎉
 
